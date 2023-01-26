@@ -25,8 +25,7 @@ body{
 
 .button-container {
   position: absolute;
-  border-top: 250px;
-  margin-top: 150px;
+  top: 150px
 }
 
 .button {
