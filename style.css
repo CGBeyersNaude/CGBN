@@ -26,6 +26,8 @@ body{
 .button-container {
   position: absolute;
   top: 150px
+  align-items: center;
+  justify-content: center;
 }
 
 .button {
