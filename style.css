@@ -26,13 +26,10 @@ body{
 .button-container {
   position: absolute;
   top: 150px
-  align-items: center;
-  justify-content: center;
 }
 
 .button {
   position: relative;
-  flex-shrink: 0.5;
   background-color: #cd1a11; /* white */
   border: none;
   color: white;
