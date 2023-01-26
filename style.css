@@ -6,6 +6,7 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-flow: row wrap;
 }
 
 .header {
@@ -22,7 +23,7 @@ body{
 }
 
 .button {
-  flex-wrap: wrap;
+  flex-grow: 0.2;
   background-color: #cd1a11; /* white */
   border: none;
   color: white;
@@ -41,7 +42,7 @@ body{
   transition-duration: 0.2s;
   -webkit-transition-property: box-shadow, transform, color, background-color;
   transition-property: box-shadow, transform, color, background-color;
-  margin: 15px;
+  margin: 25px;
 }
 
   .button:hover, .button:focus, .button:active{
