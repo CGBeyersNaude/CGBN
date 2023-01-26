@@ -5,11 +5,10 @@ body{
   justify-content: center;
   align-items: center;
   display: flex;
-  background-color: #F1F1F1;
 }
 
 .button {
-  background-color: #cd1a11; 
+  background-color: #cd1a11; /* white */
   border: none;
   color: white;
   text-align: center;
@@ -23,12 +22,17 @@ body{
   height: 120px;
   border-radius: 20px;
   cursor: pointer;
-  margin: 20px;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform, color, background-color;
+  transition-property: box-shadow, transform, color, background-color;
+  margin: 15px;
   align
 }
 
   .button:hover, .button:focus, .button:active{
   background-color: #f0a8a4;
+  -webkit-transform: scale(1.1);
   transform: scale(1.1);
 
 }
