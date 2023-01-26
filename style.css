@@ -23,6 +23,11 @@ body{
   height: auto;
 }
 
+.button-container {
+  position: absolute;
+  border-top: 200px;
+}
+
 .button {
   flex-grow: 0.2;
   background-color: #cd1a11; /* white */
