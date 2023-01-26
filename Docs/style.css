@@ -27,7 +27,6 @@ body{
   -webkit-transition-property: box-shadow, transform, color, background-color;
   transition-property: box-shadow, transform, color, background-color;
   margin: 15px;
-  align
 }
 
   .button:hover, .button:focus, .button:active{
