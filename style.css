@@ -1,5 +1,5 @@
 .button {
-  background-color: #4CAF50; /* Red */
+  background-color: #cd1a11; /* white */
   border: none;
   color: white;
   padding: 50px 50px;
@@ -7,4 +7,10 @@
   text-decoration: none;
   display: inline-block;
   font-size: 100px;
+
+}
+
+  .button:hover {
+  background-color: #f0a8a4; /* #cd1a11 */
+  color: white;
 }
