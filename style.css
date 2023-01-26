@@ -1,8 +1,8 @@
 body{
   margin: 0px;
   padding: 0px;
-  height: 100vh;
-  width: 100vw; 
+  height: 100%;
+  width: 100%; 
   justify-content: center;
   align-items: center;
   display: flex;
@@ -29,13 +29,13 @@ body{
 }
 
 .button {
+  position: relative;
   flex-shrink: 0.5;
   background-color: #cd1a11; /* white */
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 40px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -49,7 +49,7 @@ body{
   -webkit-transition-property: box-shadow, transform, color, background-color;
   transition-property: box-shadow, transform, color, background-color;
   margin: 25px;
-  
+  left: auto;
 }
 
   .button:hover, .button:focus, .button:active{
