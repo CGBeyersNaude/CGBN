@@ -48,7 +48,6 @@ body{
   -webkit-transition-property: box-shadow, transform, color, background-color;
   transition-property: box-shadow, transform, color, background-color;
   margin: 25px;
-  left: auto;
 }
 
   .button:hover, .button:focus, .button:active{
