@@ -10,6 +10,7 @@ body{
 }
 
 .header {
+  width: 100%;
   position: absolute;
   top: 15px;
   left: 5px;
@@ -43,6 +44,7 @@ body{
   -webkit-transition-property: box-shadow, transform, color, background-color;
   transition-property: box-shadow, transform, color, background-color;
   margin: 25px;
+  
 }
 
   .button:hover, .button:focus, .button:active{
