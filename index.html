@@ -1,35 +1,79 @@
-<html lang="en-US">
-
+<!DOCTYPE html>
+<html lang="en">
 	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>CGBN</title>
+		<style>
 
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width" />
+			body {
+    			display: flex;
+   			 	overflow-x: hidden;
+				overflow-y: hidden;
+				flex-flow: column;
+				height: 100vh;
+			}
 
-	<title>CGBN</title>
+			.cgbn-logo {
+				
+ 			  	width: 100px;
+  				height: auto;
+			}
 
-			<link
-			href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
-			rel="stylesheet" />
-			<link rel="stylesheet" href="style.css" />
+			.button-section {
+				display: flex;
+				flex-flow: column;
+				align-items: center;
+				justify-content: center;
+				margin-top: 20px;
+				margin-bottom: 100px;
+				flex-grow: 1;
+			}
+
+			@media (min-width: 500px){
+				.button-section {
+					flex-flow: row;
+				}
+			}
+
+			.button-class {
+				background-color: #cd1a11;
+				font-family: "Roboto", sans-serif;
+				font-size: 25px;
+				font-weight: bold;
+				text-transform: uppercase;
+				color: white;
+				border: none;
+				margin: 10px;
+				height: clamp(40px, 30px + 5vh, 80px);
+				width: clamp(100px, 100px + 20vw, 250px);
+				border-radius: 20px;
+				cursor: pointer;
+				transition-duration: 0.2s;
+				transition-property: all;
+			}
+
+			.button-class:hover, .button-class:active {
+				background-color: #f0a8a4;
+				transform: scale(1.1);
+			}
+
+		</style>
 
 	</head>
 
-
 	<body>
-
-		<header class="header">
-
-			<div class="cgbn-logo"><img src="https://cgbeyersnaude.github.io/CGBN/content/cgbn_logo.png" width="100px" height="auto"></div>
-
-		</header>
+	
+		<header><img src="content/cgbn_logo.png" alt="" class="cgbn-logo"></header>
 		
-		<div class="button-container">
+		<section class="button-section">
 
-		<button type="button" class="button" onclick="window.open('https://outlook.office.com/owa/?realm=cgbn.nl', '_blank');">Outlook</button>
-		<button type="button" class="button" onclick="window.open('https://cvo-nf.magister.net', '_blank');">Magister</button>
-		<button type="button" class="button" onclick="window.open('https://cvo-nf.zportal.nl/', '_blank');">Zermelo</button>
+			<button class="button-class" onclick="window.open('https://outlook.office.com/owa/?realm=cgbn.nl', '_blank');">outlook</button>
+			<button class="button-class" onclick="window.open('https://cvo-nf.magister.net', '_blank');">magister</button>
+			<button class="button-class" onclick="window.open('https://cvo-nf.zportal.nl/', '_blank');">zermelo</button>
 
-		</div>
+		</section>
 
 	</body>
 
