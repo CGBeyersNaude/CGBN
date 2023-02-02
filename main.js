@@ -12,8 +12,6 @@ const button_icon_cross = '<span class="material-symbols-outlined">close</span>'
 hamburger_button.addEventListener('click', function() {
     hamburger_button.classList.toggle('is-active');
     hamburger_menu.classList.toggle('is-active');
-    hamburger_menu.classList.toggle('closing');
-
 
     if (hamburger_button.innerHTML == button_icon_hamburger) {
         hamburger_button.innerHTML = button_icon_cross;
