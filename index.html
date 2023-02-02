@@ -5,70 +5,16 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>CGBN</title>
-		<style>
-
-			body {
-				overflow-x: hidden;
-				overflow-y: hidden;
-			}
-
-			.main-container {
-    			display: flex;
-				flex-flow: column;
-				height: 100vh;
-			}
-
-			.cgbn-logo {
- 			  	width: 100px;
-  				height: auto;
-			}
-
-			.button-section {
-				display: flex;
-				flex-flow: column;
-				align-items: center;
-				justify-content: center;
-				margin-top: 20px;
-				margin-bottom: 100px;
-				flex-grow: 1;
-			}
-
-			@media (min-width: 500px){
-				.button-section {
-					flex-flow: row;
-				}
-			}
-
-			.button-class {
-				background-color: #cd1a11;
-				font-family: "Roboto", sans-serif;
-				font-size: 25px;
-				font-weight: bold;
-				text-transform: uppercase;
-				color: white;
-				border: none;
-				margin: 10px;
-				height: clamp(40px, 30px + 5vh, 80px);
-				width: clamp(100px, 100px + 20vw, 250px);
-				border-radius: 20px;
-				cursor: pointer;
-				transition-duration: 0.2s;
-				transition-property: all;
-			}
-
-			.button-class:hover, .button-class:active {
-				background-color: #f0a8a4;
-				transform: scale(1.1);
-			}
-
-		</style>
-
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
 		<div class="main-container">
-			<header>
+			<header class="header-class">
 				<img src="content/cgbn_logo.png" alt="" class="cgbn-logo">
+				<div style="width: 100%;"></div>
+				<button class="hamburger"><span class="material-symbols-outlined">menu</span></button>
 			</header>
 
 			<section class="button-section">
@@ -79,6 +25,14 @@
 
 			</section>
 		</div>
+
+		<div class="hamburger-menu-container">
+
+			<a href="https://www.beyersnaude.nl/">Officiële site</a>
+
+		</div>
+
+		<script src="main.js"></script>
 	</body>
 
 </html>
