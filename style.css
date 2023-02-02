@@ -121,6 +121,12 @@ body {
 }
 
 .hamburger-menu-container.is-active {
+    animation-direction: normal;
+    animation: open-hamburger 0.4s forwards;
+}
+
+.hamburger-menu-container.closing {
+    animation-direction: reverse;
     animation: open-hamburger 0.4s forwards;
 }
 
