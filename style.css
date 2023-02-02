@@ -62,7 +62,7 @@ body {
     border: none;
     background: none;
     border-radius: 10px;
-    min-width: 48px;
+    width: 48px;
     transition-duration: 0.2s;
     transition-property: all;
     cursor: pointer;
