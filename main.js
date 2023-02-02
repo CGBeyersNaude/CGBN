@@ -1,3 +1,8 @@
+window.onload = function() {
+
+};
+
+
 const hamburger_button = document.querySelector('.hamburger');
 const hamburger_menu = document.querySelector('.hamburger-menu-container');
 
@@ -16,3 +21,10 @@ hamburger_button.addEventListener('click', function() {
 
 
 });
+
+
+const storedTheme = localStorage.getItem("theme");
+
+function ChangeTheme() {
+
+}
