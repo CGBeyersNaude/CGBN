@@ -4,14 +4,6 @@ body {
     overflow: hidden;
 
     background-color: var(--background-body);
-
-    /* Light mode */
-    --cgbn-red: #cd1a11;
-    --cgbn-red-hover-dark: #85130c;
-    --cgbn-red-hover-light: #f0a8a4;
-    --hamburger-hover: #AAAAAA;
-    --text: #FFFFFF;
-    --background-body: #FFFFFF;
 }
 
 body {
