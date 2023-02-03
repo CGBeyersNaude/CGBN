@@ -28,3 +28,16 @@ const storedTheme = localStorage.getItem("theme");
 function ChangeTheme() {
 
 }
+
+const theme_button = document.querySelector('.theme-button');
+
+const button_icon_light = '<span class="material-symbols-outlined">light_mode</span>'
+const button_icon_dark = '<span class="material-symbols-outlined">dark_mode</span>'
+
+theme_button.addEventListener('click', function() {
+    if (theme_button.innerHTML == button_icon_dark) {
+        theme_button.innerHTML = button_icon_light;
+    } else {
+        theme_button.innerHTML = button_icon_dark;
+    }
+});
