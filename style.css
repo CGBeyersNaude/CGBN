@@ -23,8 +23,8 @@ html,body{
     --cgbn-red-hover-dark: #85130c;
     --cgbn-red-hover-light: #f0a8a4;
     --hamburger-hover: #AAAAAA;
-    --text: #FFFFFF;
-    --background-body: #FFFFFF;
+    --text: #c0c0c0;
+    --background-body: #363738;
 }
 
 .main-container {
@@ -92,13 +92,13 @@ html,body{
     z-index: 20;
 }
 
-.hamburger:hover {
+/* .hamburger:hover {
     background-color: var(--hamburger-hover);
 }
 
 .hamburger.is-active:hover {
     background-color: var(--cgbn-red-hover-dark);
-}
+} */
 
 .material-symbols-outlined {
     font-variation-settings:
@@ -126,7 +126,7 @@ html,body{
 }
 
 .hamburger-menu-container.is-active {
-    left: 0vw;
+    transform: translateX(-100vw);
 }
 
 .hamburger-menu-container, a {
@@ -151,5 +151,5 @@ html,body{
 .theme-button {
     background: none;
     border: none;
-    margin-bottom: 5px;
+    margin-bottom: 75px;
 }
