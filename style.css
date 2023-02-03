@@ -4,6 +4,10 @@ body {
     overflow: hidden;
 }
 
+html,body{
+    margin:0;
+    }
+
 .light-mode {
     --cgbn-red: #cd1a11;
     --cgbn-red-hover-dark: #85130c;
@@ -103,7 +107,7 @@ body {
 
 .hamburger-menu-container {
     overflow: hidden;
-    position: absolute;
+    position: relative;
     z-index: 10;
     background-color: var(--cgbn-red);
     width: 100%;
@@ -130,4 +134,13 @@ body {
 
 .hamburger-spacer {
     height: 100%;
+}
+
+.hamburger-menu-container-container {
+    position: absolute;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
 }
