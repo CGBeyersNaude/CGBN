@@ -99,6 +99,7 @@ html,body{
     transition-property: all;
     cursor: pointer;
     z-index: 20;
+    color: var(--text);
 }
 
 .hamburger:hover {
