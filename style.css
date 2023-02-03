@@ -17,7 +17,7 @@ body {
 
 html,body{
     margin:0;
-    }
+}
 
 .dark-mode {
     --cgbn-red: #cd1a11;
@@ -128,7 +128,7 @@ html,body{
 }
 
 .hamburger-menu-container.is-active {
-    transform: translateX(-100vw);
+    transform: translateX(-100vw); 
 }
 
 .hamburger-menu-container, a {
@@ -148,6 +148,11 @@ html,body{
     left: 0px;
     height: 100vh;
     width: 100vw;
+    pointer-events: none;
+}
+
+.hamburger-menu-container-container.is-active {
+    pointer-events: auto;
 }
 
 .theme-button {
