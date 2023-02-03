@@ -2,19 +2,21 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
     overflow: hidden;
-}
 
-html,body{
-    margin:0;
-    }
+    background-color: var(--background-body);
 
-.light-mode {
+    /* Light mode */
     --cgbn-red: #cd1a11;
     --cgbn-red-hover-dark: #85130c;
     --cgbn-red-hover-light: #f0a8a4;
     --hamburger-hover: #AAAAAA;
     --text: #FFFFFF;
+    --background-body: #FFFFFF;
 }
+
+html,body{
+    margin:0;
+    }
 
 .dark-mode {
     --cgbn-red: #cd1a11;
@@ -22,6 +24,7 @@ html,body{
     --cgbn-red-hover-light: #f0a8a4;
     --hamburger-hover: #AAAAAA;
     --text: #FFFFFF;
+    --background-body: #FFFFFF;
 }
 
 .main-container {
