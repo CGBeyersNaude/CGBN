@@ -99,7 +99,6 @@ html,body{
     transition-property: all;
     cursor: pointer;
     z-index: 20;
-    color: var(--text);
 }
 
 .hamburger:hover {
@@ -111,6 +110,7 @@ html,body{
 }
 
 .material-symbols-outlined {
+    color: #000000;
     font-variation-settings:
     'FILL' 0,
     'wght' 400,
